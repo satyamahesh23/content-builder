@@ -28,5 +28,9 @@ Data is saved automatically in localStorage
 
 ## live demo
 http://content-builder-eight.vercel.app
+## git hub 
+https://github.com/satyamahesh23/content-builder
+## video
+https://drive.google.com/file/d/1-wjzqY8lDrCRmLEJlkKAwoLUZYzl8LoE/view?usp=drivesdk
 
 
