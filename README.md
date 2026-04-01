@@ -1,16 +1,32 @@
-# React + Vite
+## Content Builder App
+## Project Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a React-based Content Builder application where users can dynamically create and manage page content by adding different types of blocks such as headers, text, and images.
+The application allows users to edit content, reorder components using drag-and-drop, and delete blocks easily. It also includes localStorage support to persist data even after page refresh.
 
-Currently, two official plugins are available:
+## Features
+Add components (Header, Text, Image)
+ Edit content dynamically
+ Drag & Drop to reorder blocks
+ Delete blocks
+ Data persistence using localStorage
+ Modern responsive UI design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+React.js (Functional Components & Hooks)
+JavaScript (ES6)
+HTML5 Drag and Drop API
+CSS (Flexbox, Glassmorphism UI)
+Browser localStorage
 
-## React Compiler
+## Functionality
+Users can add different content blocks from the sidebar
+Each block can be edited in real-time
+Blocks can be reordered using drag-and-drop
+Users can delete unwanted blocks
+Data is saved automatically in localStorage
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## live demo
+http://content-builder-eight.vercel.app
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
